@@ -1,0 +1,52 @@
+.filter {
+  /* filter: drop-shadow(5px 5px 5px orange); */
+  /* filter: grayscale(100);*/
+  /* filter: brightness(10%); */
+  /* filter: invert(); */
+  /* filter: sepia(); */
+  /* filter: blur(4px); */
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+}
+
+img {
+  max-width: 300px;
+  margin-right: 1rem;
+}
+
+pre,
+code {
+  background: #efefef;
+  padding: 3px;
+  border-radius: 3px;
+  display: block;
+  width: fit-content;
+  margin-bottom: 1rem;
+}
+
+.drop-shadow {
+  filter: drop-shadow(5px 5px 5px black);
+}
+
+.grayscale {
+  filter: grayscale(100);
+}
+
+.brightness {
+  filter: brightness(50%);
+}
+
+.invert {
+  filter: invert();
+}
+
+.blur {
+  filter: blur(5px);
+}
